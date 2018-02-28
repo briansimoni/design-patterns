@@ -1,3 +1,11 @@
+// The prototype patteren is a powerful tool to build caches and default
+// objects.
+//
+// The aim of the prototype pattern is to have an object or a set of objects
+// that is already created at compilation time, but which you can clone
+// as many times as you want at runtime. Perhaps it would be useful as a
+// default template on a web app for someone who has just logged in.
+
 package prototype
 
 import (
