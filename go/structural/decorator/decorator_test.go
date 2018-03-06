@@ -1,13 +1,3 @@
-// When you think about extending legacy code without the risk of breaking
-// something, you should think of the Decorator pattern first.
-
-// When to use the decorator pattern:
-// - When you need to add functionality to some code that you don't have access to,
-//   or you don't want to modify to avoid a negative effect on the code, and follow
-//   the open/closed principle (like legacy code)
-// - When you want the functionality of an object to be created or altered dynamically,
-//   and the number of features is unknown and could grow fast.
-
 package decorator
 
 import (
