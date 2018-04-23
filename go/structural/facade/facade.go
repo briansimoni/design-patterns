@@ -1,3 +1,11 @@
+// Intent is to provide a unified interface to a set of interfaces in a subsystem.
+// Facade defines a higher-level interface that makes the subsystem easier to use.
+
+// Motivation: structuring a system into subsystems helps reduce complexity. A common
+// design goal is to minimize the communication and dependencies between subsystems. One
+// way to achieve this goal is to introduce a facade object that provides a single, simplified
+// interface to the more general facilities of a subsystem.
+
 package facade
 
 import (
